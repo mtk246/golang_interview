@@ -21,5 +21,5 @@ func Assignment1() {
 	fmt.Println("Input string:", input)
 
 	firstNumeric := GetFirstNumeric(input)
-	fmt.Println("First numeric:", firstNumeric)
+	fmt.Println("Expect result:", firstNumeric)
 }

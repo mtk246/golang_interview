@@ -33,9 +33,9 @@ func Assignment2() {
 		fmt.Println("Invalid IP address format")
 	} else {
 		if IsValidIPAddress(input) {
-			fmt.Println("Valid IP address")
+			fmt.Println("Expected result:", true)
 		} else {
-			fmt.Println("Invalid IP address")
+			fmt.Println("Expected result:", false)
 		}
 	}
 }
